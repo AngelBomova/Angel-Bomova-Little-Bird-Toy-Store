@@ -1,0 +1,86 @@
+html, body {
+  height: 100%;
+  width: 100%;
+}
+.center1 {
+  text-align: center;
+}
+.hthree {
+  color: black;
+}
+.paraone {
+  color: black;
+}
+.footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: white;
+  color: black;
+  text-align: center;
+  padding-top: 10px;
+  padding-right: 10px;
+  padding-bottom: 10px;
+  padding-left: 10px;
+  border: 1px solid black;
+}
+.carousel-inner-new{
+  position: relative;
+  margin-left: 15%;
+  margin-right: 15%;
+  overflow: hidden;
+}
+.theimage{
+  object-fit: contain;
+  height:25%;
+  width:100%;
+}
+.carousel-caption-new {
+    /* position: absolute; */
+    right: 15%;
+    bottom: 1.25rem;
+    left: 15%;
+    padding-top: 1.25rem;
+    padding-bottom: 1.25rem;
+    color: #fff;
+    text-align: center;
+}
+ul{
+   text-align: left;
+}
+.parent {
+  text-align: center;
+}
+.parent > ul {
+  display: inline-block;
+}
+
+.button {
+  padding: 15px 25px;
+  font-size: 24px;
+  text-align: center;
+  cursor: pointer;
+  outline: none;
+  color: #fff;
+  background-color: #04AA6D;
+  border: none;
+  border-radius: 15px;
+  box-shadow: 0 9px #999;
+}
+
+.button:hover {background-color: #3e8e41}
+
+.button:active {
+  background-color: #3e8e41;
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
+}
+.text-center {
+   padding-left: 80px;
+  padding-right: 80px;
+}
+
+h1, h2, h3, h4, h5, h6  {
+  font-family: Times-New-Roman ;
+}
